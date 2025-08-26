@@ -12,10 +12,13 @@
 
 
 
-list-group-item .btn-close {
-  display: none;
+/* Ocultar el botón por defecto */
+.list-group-item .btn-close {
+  opacity: 0;          /* invisible */
+  transition: opacity 0.3s ease; /* animación suave */
 }
 
+/* Mostrar el botón cuando paso el mouse */
 .list-group-item:hover .btn-close {
-  display: inline-block;
+  opacity: 1;          /* visible */
 }
