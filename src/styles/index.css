@@ -9,3 +9,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+
+list-group-item .btn-close {
+  display: none;
+}
+
+.list-group-item:hover .btn-close {
+  display: inline-block;
+}
